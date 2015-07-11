@@ -1,2 +1,2 @@
 # trove
-# This project is comprised of Bootstrap and Ember
+This project is comprised of Bootstrap and Ember
