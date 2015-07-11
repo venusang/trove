@@ -1,0 +1,9 @@
+<div class="dropdown">
+  <input class="form-control dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" placeholder="Select an attribute(s)">
+  <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    {{#each model}}
+      <li role="presentation"><a role="menuitem" tabindex="-1">{{field}}</a></li>
+    {{/each}}
+  </ul>
+</div>

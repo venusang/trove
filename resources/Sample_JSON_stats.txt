@@ -1,0 +1,32 @@
+{
+    "rows": [
+        {
+            "pool pump size": "4.2"
+        },
+        {
+            "pool pump size": "3.2"
+        },
+        {
+            "pool pump size": "13.9"
+        },
+        {
+            "pool pump size": "3.2"
+        },
+        {
+            "pool pump size": "14.2"
+        },
+        {
+            "pool pump size": "4.2"
+        }
+    ],
+    "stats": [
+        {
+            "name": "pool pump model",
+            "avg": "7.2",
+            "sum": "50.4",
+            "count": "6",
+            "min": "3.2",
+            "max":"14.2"
+        }
+    ]
+}

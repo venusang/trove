@@ -1,0 +1,34 @@
+{
+    "graphs": [
+        {
+            "x-axis": [
+                {"dataField": 1022}
+            ],
+            "y-axis": "sum",
+            "g-group": [
+                {"dataField": 1022},
+                {"dataField": 1012}
+             ]
+        },
+        {
+            "x-axis": [
+                {"dataField": 1022}
+            ],
+            "y-axis": "sum",
+            "g-group": [
+                {"dataField": 1022},
+                {"dataField":1012}
+             ]
+        },
+        {
+            "x-axis": [
+                {"dataField": 1022}
+            ],
+            "y-axis": "sum",
+            "g-group": [
+                {"dataField": 1022},
+                {"dataField":1012}
+             ]
+        }
+    ]
+}

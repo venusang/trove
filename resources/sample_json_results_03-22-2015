@@ -1,0 +1,71 @@
+{
+    "dataFields": [
+        {
+            "id": 1012,
+            "ontologyRef": "Trove",
+            "type": "ENUM",
+            "filters": [
+                {
+                    "predicate": "similar",
+                    "values": [
+                        "Val01",
+                        " Val02"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1018,
+            "ontologyRef": "Trove",
+            "type": "INTEGER",
+            "filters": [
+                {
+                    "predicate": "equals",
+                    "values": [
+                        "91344"
+                    ]
+                },
+                {
+                    "predicate": "greaterthan",
+                    "values": [
+                        "91300"
+                    ]
+                },
+                {
+                    "predicate": "lessthan",
+                    "values": [
+                        "92000"
+                    ]
+                },
+                {
+                    "predicate": "between",
+                    "values": [
+                        "1234",
+                        "890809"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1021,
+            "ontologyRef": "Analytic",
+            "type": "STRING",
+            "filters": [
+                {
+                    "predicate": "date",
+                    "value": 1429920000000
+                },
+                {
+                    "predicate" : "time",
+                    "value": "22:00"
+                },
+                {
+                    "predicate": "equal",
+                    "values": [
+                        "1394919128"
+                    ]
+                }
+            ]
+        }
+    ]
+}

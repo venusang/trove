@@ -1,0 +1,6 @@
+<label>{{name}}</label>
+<select class="data-fields col-md-12 col-sm-10" multiple="multiple">
+	{{#each df in dataFields}}
+		<option {{action 'onSelect'}}>{{df.name}}</option>
+	{{/each}}
+</select>

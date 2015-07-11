@@ -1,0 +1,39 @@
+{{#if showResults}}
+    <div class="row">
+       <h3>Results</h3>
+       <div class="alert alert-info">
+            <strong>Showing results for <span class="dates">{{startMonth}} {{startDate}}, {{startYear}} ({{startDay}}) to {{endMonth}} {{endDate}}, {{endYear}} ({{endDay}})</span>.  Between <span class="times">{{startTime}}</span> to <span class="times">{{endTime}}</span>.</strong>
+       </div>
+    <div class="row">
+      {{render 'data-results-modules'}} 
+    </div>
+    </div>
+    <div class="row">
+        <table id="data-results-table" class="table table-striped table-bordered dataTable table-hover">
+        <thead>
+            <tr>
+                <th>accountTariff</th>
+                <th>accountZipcode</th>
+                <th>accountEventsMeterId</th>
+                <th>accountEventsExecutedBy</th>
+                <th>accountHouseNumber</th>
+                <th>accountEventsType</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each result in results}}
+            <tr>
+                <td>{{result.accountId}}</td>
+                <td>{{result.rateClass}}</td>
+                <td>{{result.hourly}}</td>
+                <td>{{result.daily}}</td>
+                <td>{{result.personIncome}}</td>
+                <td>{{result.sqFootage}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+    </div><!-- row -->
+
+    {{else}}Nice try sucker    
+{{/if}}

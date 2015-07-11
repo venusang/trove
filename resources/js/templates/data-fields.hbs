@@ -1,0 +1,20 @@
+
+<div class="panel panel-default">
+
+<div class="panel-heading"><h4>Data Fields</h4></div>
+	<div class="panel-body">
+		{{#each m in model}}
+           <label>{{m.name}}</label>
+            <div class="dropdown">
+                <input {{action 'inputSelect'}} class="form-control dropdown-toggle" data-toggle="dropdown" aria-expanded="true" placeholder="Select an attribute(s)" {{bind-attr id="id"}}>
+                <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+
+                <ul class="dropdown-menu" role="menu" {{bind-attr aria-labelledby="id"}}>
+                    {{#each df in m.dataSetAttributes}}
+                        <li role="presentation"><a role="menuitem" tabindex="-1" {{action 'onSelect' m.id df.id df}}>{{df.name}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+		{{/each}}
+	</div>
+</div>

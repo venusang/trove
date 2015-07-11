@@ -1,0 +1,282 @@
+
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/results{?page,size,sort}",
+      "templated" : true
+    },
+    "next" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/results?page=1&size=20{&sort}",
+      "templated" : true
+    }
+  },
+  "_embedded" : {
+    "temporyResults" : [{
+      "accountId" : "150aab65",
+      "rateClass" : "SC 51",
+      "hourly" : 17.4,
+      "daily" : 60.0,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 85.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/1"
+        }
+      }
+    }, {
+      "accountId" : "149aab64",
+      "rateClass" : "SC 50",
+      "hourly" : 17.3,
+      "daily" : 59.8,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 85.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/2"
+        }
+      }
+    }, {
+      "accountId" : "148aab63",
+      "rateClass" : "SC 49",
+      "hourly" : 17.2,
+      "daily" : 59.6,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 85.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/3"
+        }
+      }
+    }, {
+      "accountId" : "147aab62",
+      "rateClass" : "SC 48",
+      "hourly" : 17.1,
+      "daily" : 59.4,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/4"
+        }
+      }
+    }, {
+      "accountId" : "146aab61",
+      "rateClass" : "SC 47",
+      "hourly" : 17.0,
+      "daily" : 59.2,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/5"
+        }
+      }
+    }, {
+      "accountId" : "145aab60",
+      "rateClass" : "SC 46",
+      "hourly" : 16.9,
+      "daily" : 59.0,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/6"
+        }
+      }
+    }, {
+      "accountId" : "144aab59",
+      "rateClass" : "SC 45",
+      "hourly" : 16.8,
+      "daily" : 58.8,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/7"
+        }
+      }
+    }, {
+      "accountId" : "143aab58",
+      "rateClass" : "SC 44",
+      "hourly" : 16.7,
+      "daily" : 58.6,
+      "personIncome" : 32000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/8"
+        }
+      }
+    }, {
+      "accountId" : "142aab57",
+      "rateClass" : "SC 43",
+      "hourly" : 16.6,
+      "daily" : 58.4,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/9"
+        }
+      }
+    }, {
+      "accountId" : "141aab56",
+      "rateClass" : "SC 42",
+      "hourly" : 16.5,
+      "daily" : 58.2,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/10"
+        }
+      }
+    }, {
+      "accountId" : "140aab55",
+      "rateClass" : "SC 41",
+      "hourly" : 16.4,
+      "daily" : 58.0,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/11"
+        }
+      }
+    }, {
+      "accountId" : "139aab54",
+      "rateClass" : "SC 40",
+      "hourly" : 16.3,
+      "daily" : 57.8,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/12"
+        }
+      }
+    }, {
+      "accountId" : "138aab53",
+      "rateClass" : "SC 39",
+      "hourly" : 16.2,
+      "daily" : 57.6,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 65.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/13"
+        }
+      }
+    }, {
+      "accountId" : "137aab52",
+      "rateClass" : "SC 38",
+      "hourly" : 16.1,
+      "daily" : 57.4,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 66.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/14"
+        }
+      }
+    }, {
+      "accountId" : "136aab51",
+      "rateClass" : "SC 37",
+      "hourly" : 16.0,
+      "daily" : 57.2,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 66.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/15"
+        }
+      }
+    }, {
+      "accountId" : "135aab50",
+      "rateClass" : "SC 36",
+      "hourly" : 15.9,
+      "daily" : 57.0,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 66.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/16"
+        }
+      }
+    }, {
+      "accountId" : "134aab49",
+      "rateClass" : "SC 35",
+      "hourly" : 15.8,
+      "daily" : 56.8,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 66.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/17"
+        }
+      }
+    }, {
+      "accountId" : "133aab48",
+      "rateClass" : "SC 34",
+      "hourly" : 15.7,
+      "daily" : 56.6,
+      "personIncome" : 42000.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 66.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/18"
+        }
+      }
+    }, {
+      "accountId" : "132aab47",
+      "rateClass" : "SC 33",
+      "hourly" : 15.6,
+      "daily" : 56.4,
+      "personIncome" : 87543.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 70.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/19"
+        }
+      }
+    }, {
+      "accountId" : "131aab46",
+      "rateClass" : "SC 32",
+      "hourly" : 15.5,
+      "daily" : 56.2,
+      "personIncome" : 87543.0,
+      "sqFootage" : 3300,
+      "peakLoad" : 71.0,
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/20"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 51,
+    "totalPages" : 3,
+    "number" : 0
+  }
+}

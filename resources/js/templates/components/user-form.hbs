@@ -1,0 +1,43 @@
+<p>
+  <form {{action "submit" on="submit"}}>
+    <div class="col-md-6">
+      <label>Display Name</label>
+        {{input type="text" class="form-control" value=userName}}
+      </div>
+      <div class="col-md-6">
+        <label>Email</label>
+        {{input type="email" class="form-control" placeholder="enter your email address" value=email }}
+      </div>
+
+      <div class="col-md-6">
+        <label>Feedback Type</label><br />
+
+        <select class="form-control" id="feedbackType" {{action 'feedbackType'}}>
+          <option value="bug">Bug</option>
+          <option value="comment">Comment</option>
+        </select>
+
+
+      </div>
+      <div class="col-md-6">
+        <label>Original Feedback Date</label>
+        <input type="date" id="theDate" class="form-control" {{action 'setDate'}}>
+      </div>
+      <div class="col-md-12">
+        <label>Subject</label>
+        {{input type="text" class="form-control" placeholder="Text input" value=subject}}
+        <label>Description</label>
+        {{textarea class="form-control" rows="3" value=description}}
+        
+      </div>
+      
+    </div>
+
+    <div class="col-md-12 text-right">
+    <br />
+      <button type="reset" class="btn btn-default">Cancel</button>
+      <button type="submit" class="btn btn-primary">submit feedback</button>
+    </div>
+    
+  </form>
+</p>

@@ -1,0 +1,123 @@
+type:  STRING, DATE (or timestamp), NUMERIC (double, integer), ENUM - which will be moved from the values array  array of values (what we have right now)
+enum values (now is currently values)
+
+ 
+
+[
+    {
+        "id": 17,
+        "name": "Customer Account",
+        "description": "Customer Account",
+        "dataSetAttributes": [
+            {
+                "id": 1013,
+                "name": "account tariff",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "Enum",
+                "analyticalParams": [],
+                "enumValues": ["SC 51","SC 50", "SC 49", "SC 48", "SC 47", "SC 46", "SC 45", "SC 44", "SC 43", "SC 42", "SC 41", "SC 40", "SC 39", "SC 38", "SC 37", "SC 36", "SC 35", "SC 34", "SC 33", "SC 32"]
+            },
+            {
+                "id": 1014,
+                "name": "account zipcode",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "STRING",
+                "analyticalParams": [],
+                "enumValues": ["54000","65000", "9000", "9774", "9789"]
+            },
+            {
+                "id": 1018,
+                "name": "account events meter id",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "INTEGER",
+                "analyticalParams": [],
+                "enumValues": []
+            },
+            {
+                "id": 1016,
+                "name": "account events executed by",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "STRING",
+                "analyticalParams": [],
+                "enumValues":[]
+            },
+            {
+                "id": 1020,
+                "name": "account events id",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "LONG",
+                "analyticalParams": [],
+                "enumValues":[10,20,30,40,50,60,70,80,90,100]
+            },
+            {
+                "id": 1019,
+                "name": "account events order date",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "DATE",
+                "analyticalParams": []
+            },
+            {
+                "id": 1015,
+                "name": "account house number",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "INTEGER",
+                "analyticalParams": [],
+                "enumValues": [11,12,13,14,15,16,17,18,19,20]
+            },
+            {
+                "id": 1017,
+                "name": "account events type",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "STRING",
+                "analyticalParams": [],
+                "enumValues": ["Withdraw", "Deposit", "Cash", "Debit", "Credit"]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Appliances",
+        "description": "Applicances",
+        "dataSetAttributes": [
+            {
+                "id": 1021,
+                "name": "Pool Pump Model",
+                "description": "Enter Description Here",
+                "ontologyRef": "Analytic",
+                "inferredFrom": "Analytic",
+                "type": "STRING",
+                "analyticalParams": [
+                    {
+                        "modelInstanceId": 1276,
+                        "modelInstanceParameterId": 1191,
+                        "type": "DATE",
+                        "value": ""
+                    },
+                    {
+                        "modelInstanceId": 1276,
+                        "modelInstanceParameterId": 1192,
+                        "type": "TIMESTAMP",
+                        "value": ""
+                    }
+                ],
+                "enumValues": ["alpha-1", "alpha-2", "alpha-3", "beta-1", "beta-2", "beta-3", "omega-1", "omega-2", "omega-3"]
+            }
+        ]
+    }
+]

@@ -1,0 +1,78 @@
+<style>
+
+.ember-accordion-header {
+  background-color: #999;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  line-height: 14px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.ember-accordion-container {
+  height: 100%;
+  width: 100%;
+}
+
+.ember-accordion-pane {
+  padding: 2px;
+}
+
+.emberaccordionheaderselected {
+  background-color: #bbb;
+  color: #333;
+  font-weight: bold;
+}
+
+.ember-accordion-header:hover {
+  text-decoration: underline !important;
+}
+
+.emberaccordionheaderselected:hover {
+  text-decoration: underline !important;
+}
+
+.ember-accordion-pane-content {
+  padding: 5px;
+  overflow-y: auto;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.emberdisabledpane {
+  opacity: .2;
+}
+</style>
+
+{{#ember-accordion listOfAccordionPaneObjects=model}}                        
+      {{#ember-accordion-header}}
+          {{head}} <!-- each object passed in listOfAccordionPaneObjects=model can be accessed here -->
+      {{/ember-accordion-header}}
+      {{#ember-accordion-body}}
+          {{body}} <!-- each object passed in listOfAccordionPaneObjects=model can be accessed here -->
+      {{/ember-accordion-body}}        
+{{/ember-accordion}}    
+
+
+
+
+
+
+
+    

@@ -1,0 +1,281 @@
+
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/results{?page,size,sort}",
+      "templated" : true
+    },
+    "next" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/results?page=1&size=20{&sort}",
+      "templated" : true
+    }
+  },
+  "_embedded" : {
+    "temporyResults" : [ {
+      "accountZipcode":"9789",
+      "accountEventsMeterId" : "150aab65",
+      "accountTariff" : "SC 51",
+      "accountHouseNumber" : "12",
+      "accountEventsExecutedBy" : "b5",
+      "accountEventsId": "10.0",
+      "poolPumpModel":"alpha-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/1"
+        }
+      }
+    }, {
+      "accountZipcode":"9789",
+      "accountEventsMeterId" : "149aab64",
+      "accountTariff" : "SC 50",
+      "accountHouseNumber" : "19",
+       "accountEventsExecutedBy" : "b5",
+       "accountEventsId": "10",
+       "poolPumpModel":"alpha-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/2"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountEventsMeterId" : "148aab63",
+      "accountTariff" : "SC 49",
+      "accountHouseNumber" : "20",
+       "accountEventsExecutedBy" : "b5",
+       "accountEventsId": "20",
+       "poolPumpModel":"alpha-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/3"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountTariff" : "SC 48",
+      "accountHouseNumber" : "18",
+       "accountEventsExecutedBy" : "b4",
+       "accountEventsId": "20",
+       "poolPumpModel":"alpha-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/4"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountEventsMeterId" : "146aab61",
+      "accountTariff" : "SC 47",
+      "accountHouseNumber" : "17",
+       "accountEventsExecutedBy" : "b4",
+       "accountEventsId": "30",
+       "poolPumpModel":"alpha-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/5"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountEventsMeterId" : "145aab60",
+      "accountTariff" : "SC 46",
+      "accountHouseNumber" : "17",
+       "accountEventsExecutedBy" : "b3",
+       "accountEventsId": "30",
+       "poolPumpModel":"alpha-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/6"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountEventsMeterId" : "144aab59",
+      "accountTariff" : "SC 45",
+      "accountHouseNumber" : "16",
+       "accountEventsExecutedBy" : "b3",
+       "accountEventsId": "40",
+       "poolPumpModel":"alpha-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/7"
+        }
+      }
+    }, {
+      "accountZipcode":"9774",
+      "accountEventsMeterId" : "143aab58",
+      "accountTariff" : "SC 44",
+      "accountHouseNumber" : "16",
+       "accountEventsExecutedBy" : "b2",
+       "accountEventsId": "40",
+       "poolPumpModel":"alpha-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/8"
+        }
+      }
+    }, {
+      "accountZipcode":"9000",
+      "accountEventsMeterId" : "142aab57",
+      "accountTariff" : "SC 43",
+      "accountHouseNumber" : "16",
+       "accountEventsExecutedBy" : "b2",
+       "accountEventsId": "50",
+       "poolPumpModel":"alpha-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/9"
+        }
+      }
+    }, {
+      "accountZipcode":"9000",
+      "accountEventsMeterId" : "141aab56",
+      "accountTariff" : "SC 42",
+      "accountHouseNumber" : "15",
+       "accountEventsExecutedBy" : "b1",
+       "accountEventsId": "50",
+       "poolPumpModel":"beta-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/10"
+        }
+      }
+    }, {
+      "accountZipcode":"9000",
+      "accountEventsMeterId" : "140aab55",
+      "accountTariff" : "SC 41",
+      "accountHouseNumber" : "15",
+       "accountEventsExecutedBy" : "b1",
+       "accountEventsId": "60",
+       "poolPumpModel":"beta-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/11"
+        }
+      }
+    }, {
+      "accountZipcode":"65000",
+      "accountEventsMeterId" : "139aab54",
+      "accountTariff" : "SC 40",
+      "accountHouseNumber" : "14",
+       "accountEventsExecutedBy" : "a5",
+       "accountEventsId": "60",
+       "poolPumpModel":"beta-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/12"
+        }
+      }
+    }, {
+      "accountZipcode":"65000",
+      "accountEventsMeterId" : "138aab53",
+      "accountTariff" : "SC 39",
+      "accountHouseNumber" : "14",
+       "accountEventsExecutedBy" : "a4",
+       "accountEventsId": "70",
+       "poolPumpModel":"beta-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/13"
+        }
+      }
+    }, {
+      "accountZipcode":"65000",
+      "accountEventsMeterId" : "137aab52",
+      "accountTariff" : "SC 38",
+      "accountHouseNumber" : "13",
+      "accountEventsExecutedBy" : "a4",
+      "accountEventsId": "80",
+      "poolPumpModel":"beta-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/14"
+        }
+      }
+    }, {
+      "accountZipcode":"65000",
+      "accountEventsMeterId" : "136aab51",
+      "accountTariff" : "SC 37",
+      "accountHouseNumber" : "13",
+      "accountEventsExecutedBy" : "a3",
+      "accountEventsId": "80",
+      "poolPumpModel":"beta-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/15"
+        }
+      }
+    }, {
+      "accountZipcode":"65000",
+      "accountEventsMeterId" : "135aab50",
+      "accountTariff" : "SC 36",
+      "accountHouseNumber" : "13",
+      "accountEventsExecutedBy" : "a3",
+      "accountEventsId": "90",
+      "poolPumpModel":"omega-1",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/16"
+        }
+      }
+    }, {
+      "accountZipcode":"54000",
+      "accountEventsMeterId" : "134aab49",
+      "accountTariff" : "SC 35",
+      "accountHouseNumber" : "12",
+      "accountEventsExecutedBy" : "a2",
+      "accountEventsId": "90",
+      "poolPumpModel":"omega-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/17"
+        }
+      }
+    }, {
+      "accountZipcode":"54000",
+      "accountEventsMeterId" : "133aab48",
+      "accountTariff" : "SC 34",
+      "accountHouseNumber" : "12",
+      "accountEventsExecutedBy" : "a2",
+      "accountEventsId": "100",
+      "poolPumpModel":"omega-2",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/18"
+        }
+      }
+    }, {
+      "accountZipcode":"54000",
+      "accountEventsMeterId" : "132aab47",
+      "accountTariff" : "SC 33",
+      "accountHouseNumber" : "11",
+      "accountEventsExecutedBy" : "a1",
+      "accountEventsId": "100",
+      "poolPumpModel":"omega-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/19"
+        }
+      }
+    }, {
+      "accountZipcode":"54000",
+      "accountEventsMeterId" : "131aab46",
+      "accountTariff" : "SC 32",
+      "accountHouseNumber" : "11",
+      "accountEventsExecutedBy" : "a1",
+      "accountEventsId": "70",
+      "poolPumpModel":"omega-3",
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/results/20"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 51,
+    "totalPages" : 3,
+    "number" : 0
+  }
+}

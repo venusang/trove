@@ -1,0 +1,173 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType{?page,size,sort}",
+      "templated" : true
+    }
+  },
+  "_embedded" : {
+    "dataFieldType" : [ {
+      "id": "01",
+      "name" : "Customer Account",
+      "dataFields" : [ {
+        "id": "01",
+        "name" : "Account Type",
+        "dataType" : "String"
+      }, {
+        "id": "02",
+        "name" : "Rate Class",
+        "dataType" : "String",
+        "values" : ["SC 51","SC 50", "SC 49", "SC 48", "SC 47", "SC 46", "SC 45", "SC 44", "SC 43", "SC 42", "SC 41", "SC 40", "SC 39", "SC 38", "SC 37", "SC 36", "SC 35", "SC 34", "SC 33", "SC 32"]
+      }, {
+        "id": "03",
+        "name" : "Account Id",
+        "dataType" : "String",
+        "values" : ["150aab65","149aab64", "148aab63", "147aab62", "146aab61", "145aab60", "144aab59", "143aab58", "142aab57", "141aab56", "140aab55", "139aab54", "138aab53", "137aab52", "136aab51", "135aab50", "134aab49", "133aab48", "132aab47", "131aab46"]
+      } ],
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/1"
+        },
+        "dataFieldType" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/1/dataFieldType"
+        }
+      }
+    }, {
+      "id": "02",
+      "name" : "Residential Consumer Attributes",
+      "dataFields" : [{
+        "id": "01",
+        "name" : "Sq Footage",
+        "dataType" : "Long",
+        "values" : {"min":1, "max":3300}
+      }, {
+        "id": "02",
+        "name" : "Person Rent Vs Own",
+        "dataType" : "String"
+      }, {
+        "id": "03",
+        "name" : "Person Ethnicity",
+        "dataType" : "String"
+      }, {
+        "id": "04",
+        "name" : "Person Education",
+        "dataType" : "String"
+      }, {
+        "id": "05",
+        "name" : "Person Income",
+        "dataType" : "Double",
+        "values" : {"min":32000.0, "max":87543.0}
+      }, {
+        "id": "06",
+        "name" : "Person Age",
+        "dataType" : "Integer"
+      } ],
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/2"
+        },
+        "dataFieldType" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/2/dataFieldType"
+        }
+      }
+    }, {
+      "id": "03",
+      "name" : "Energy Usage",
+      "dataFields" : [ {
+        "id": "01",
+        "name" : "Shoulder-Peak",
+        "dataType" : "Double"
+      }, {
+        "id": "02",
+        "name" : "Off-Peak",
+        "dataType" : "Double"
+      }, {
+        "id": "03",
+        "name" : "On-Peak",
+        "dataType" : "Double"
+      }, {
+        "id": "04",
+        "name" : "Monthly",
+        "dataType" : "Double"
+      }, {
+        "id": "05",
+        "name" : "Daily",
+        "dataType" : "Double",
+        "values" : {"min": 56.2, "max": 60.0}
+      }, {
+        "id": "06",
+        "name" : "Hourly",
+        "dataType" : "Double",
+        "values" : {"min": 15.5, "max": 17.4}
+      } ],
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/3"
+        },
+        "dataFieldType" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/3/dataFieldType"
+        }
+      }
+    }, {
+      "id": "04",
+      "name" : "Appliances",
+      "dataFields" : [ {
+        "id": "01",
+        "name" : "Peak Load",
+        "dataType" : "Double",
+        "values" : {"min":65.0, "max":85.0}
+      }, {
+        "id": "02",
+        "name" : "Number of AC Units",
+        "dataType" : "Integer"
+      }, {
+        "id": "03",
+        "name" : "Size of AC Unit",
+        "dataType" : "Integer"
+      } ],
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/4"
+        },
+        "dataFieldType" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/4/dataFieldType"
+        }
+      }
+    }, {
+      "id": "05",
+      "name" : "Business Consumer Attributes",
+      "dataFields" : [ {
+        "id": "01",
+        "name" : "Sales Volume",
+        "dataType" : "Double"
+      }, {
+        "id": "02",
+        "name" : "Franchise Codes",
+        "dataType" : "String"
+      }, {
+        "id": "03",
+        "name" : "NAICS Code",
+        "dataType" : "String"
+      }, {
+        "id": "04",
+        "name" : "SIC Code",
+        "dataType" : "String"
+      } ],
+      "_links" : {
+        "self" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/5"
+        },
+        "dataFieldType" : {
+          "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/5/dataFieldType"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 5,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
+

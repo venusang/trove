@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trove Skeleton</title>
+    <link rel="stylesheet" href="resources/css/troveMain.min.css">
+    <link rel="stylesheet" href="resources/css/troveStyle.css">
+</head>
+
+<body>
+    <script type="text/x-handlebars">
+      <div class="container-fluid">
+        {{#if isAuthenticated}}
+        <div class="row">
+          {{partial 'nav'}}
+        </div>
+        {{/if}}
+
+        <div class="row">
+          {{outlet}}
+        </div>   
+      </div>
+    </script>
+
+
+    <script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+    <script src="resources/js/troveMain.min.js"></script>
+    <script src="resources/js/templates.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+
+    <script src="resources/js/app.js"></script>
+    <script src="resources/js/routes.js"></script>
+    <script src="resources/js/fixtures.js"></script>
+    <script src="resources/js/components/Components.js"></script>
+
+    <!-- eventually break these out accordingly into MVC directories and compile into one file? -->
+    <script src="resources/js/Helpers.js"></script>
+    <script src="resources/js/components/Charting.js"></script>
+    
+    <script src="resources/js/views/DataResearch.js"></script>
+    <script src="resources/js/controllers/DataResearch.js"></script>
+    
+    <script src="resources/js/views/DataFields.js"></script>
+    <script src="resources/js/controllers/DataFields.js"></script>
+
+    <script src="resources/js/views/DataSettings.js"></script>
+    <script src="resources/js/controllers/DataSettings.js"></script>
+
+    <script src="resources/js/views/DataResults.js"></script>
+    <script src="resources/js/controllers/DataResults.js"></script>
+
+    <script src="resources/js/views/DateTime.js"></script>
+    <script src="resources/js/controllers/DateTime.js"></script>
+    
+    <script src="resources/js/views/InfoPopover.js"></script>
+    <script src="resources/js/controllers/InfoPopover.js"></script>
+
+    <script src="resources/js/controllers/Select2.js"></script>
+    <!-- to activate the test runner, add the "?test" query string parameter -->
+    <script src="tests/runner.js"></script>
+
+</body>
+
+</html>

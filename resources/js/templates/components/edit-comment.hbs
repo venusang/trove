@@ -1,0 +1,35 @@
+<form id="edit-comment-form" {{action "submit" on="submit"}} {{action "cancel" on="cancel"}} {{ action "testing" on="delete"}}>
+  <div class="col-md-6">
+  <label>Display Name</label>
+    {{input type="text" class="form-control" placeholder="user name" value=userName }}
+  </div>
+  <div class="col-md-6">
+    <label>Email</label>
+    {{input type="email" class="form-control" placeholder="enter your email address" value=email }}
+  </div>
+
+  <div class="col-md-6">
+    <label>Feedback Type</label><br />
+    <select class="form-control" id="feedbackType">
+      <option value="bug">Bug</option>
+      <option value="comment">Comment</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label>Original Feedback Date</label>
+    {{input type="date" disabled="disabled" class="form-control" value=createDate}}
+  </div>
+  <div class="col-md-12">
+    <label>Subject</label>
+    {{input type="text" class="form-control" placeholder="Text input" value=subject}}
+    <label>Description</label>
+    {{textarea class="form-control" rows="3" value=description}}
+    
+  </div>
+  <div class="col-md-12 text-right">
+      <br />
+      <button class="btn btn-danger" {{action 'delete'}}><i class="fa fa-trash"></i><br />delete</button>
+      <button class="btn btn-default" {{action 'cancel'}}><i class="fa fa-undo"></i><br />undo</button>
+      <button class="btn btn-info" type="submit"><i class="fa fa-check"></i><br />update</button>
+  </div>
+</form>

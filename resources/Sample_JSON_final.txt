@@ -1,0 +1,148 @@
+[
+    {
+        "id": 17,
+        "name": "Customer Account",
+        "description": "Customer Account",
+        "dataSetAttributes": [
+            {
+                "id": 1012,
+                "name": "Enumeration example (type Enum)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "ENUM",
+                "analyticalParams": [],
+                "values": ["Value01","Value02"]
+            },
+            {
+                "id": 1013,
+                "name": "account tariff (type STRING)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "STRING",
+                "analyticalParams": [],
+                "values": []
+            },
+            {
+                "id": 1014,
+                "name": "account zipcode (type STRING)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "STRING",
+                "analyticalParams": [],
+                "values": []
+            },
+            {
+                "id": 1018,
+                "name": "account events meter id (type INTEGER)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "INTEGER",
+                "analyticalParams": [],
+                "values": []
+            },
+            {
+                "id": 1018,
+                "name": "account events meter id 2(type INTEGER with empty values)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "INTEGER",
+                "analyticalParams": [],
+                "values": []
+            },
+            {
+                "id": 1016,
+                "name": "account events executed by (type STRING)",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "STRING",
+                "analyticalParams": [],
+                "values":[]
+            },
+            {
+                "id": 1020,
+                "name": "account events id (type LONG)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "LONG",
+                "analyticalParams": [],
+                "values":[]
+            },
+            {
+                "id": 1019,
+                "name": "account events order date (type DATE)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Trove",
+                "inferredFrom": "Trove",
+                "type": "DATE",
+                "analyticalParams": []
+            },
+            {
+                "id": 1015,
+                "name": "account house number (type INTEGER)",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "INTEGER",
+                "analyticalParams": [],
+                "values": []
+            },
+            {
+                "id": 1017,
+                "name": "account events type (type STRING)",
+                "description": "Enter Description Here",
+                "ontologyRef": "PST",
+                "inferredFrom": "PST",
+                "type": "STRING",
+                "analyticalParams": [],
+                "values": []
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Appliances",
+        "description": "Applicances",
+        "dataSetAttributes": [
+            {
+                "id": 1021,
+                "name": "Pool Pump Model (analytic with params)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Analytic",
+                "inferredFrom": "Analytic",
+                "type": "STRING",
+                "analyticalParams": [
+                    {
+                        "modelInstanceId": 1276,
+                        "modelInstanceParameterId": 1191,
+                        "type": "DATE",
+                        "value": ""
+                    },
+                    {
+                        "modelInstanceId": 1276,
+                        "modelInstanceParameterId": 1192,
+                        "type": "TIMESTAMP",
+                        "value": ""
+                    }
+                ],
+                "values": []
+            },
+            {
+                "id": 1022,
+                "name": "Pool Pump Model2 (analytic without params)",
+                "description": "Enter Description Here",
+                "ontologyRef": "Analytic",
+                "inferredFrom": "Analytic",
+                "type": "STRING",
+                "analyticalParams": [],
+                "values": []
+            }
+        ]
+    }
+]

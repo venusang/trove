@@ -1,0 +1,31 @@
+<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-12">
+  <div class="login">
+    <div class="text-center">
+      <img class="logo img-responsive" {{bind-attr src="troveLogo" alt="imageTitle"}}>
+    </div>
+      <form class="form-horizontal login-form" role="form">
+          <div class="form-group">
+                <span>
+                  {{input type="text" placeholder="username" class="form-control"}}
+                  <i class="fa fa-user login-icon"></i>
+                </span>
+                <span>
+                  {{input type="text" placeholder="password" class="form-control"}}
+                  <i class="fa fa-lock login-icon"></i>
+                </span>
+
+                <div class="checkbox">
+                  <label>
+                    {{input type="checkbox"}}
+                    Remember Me
+                  </label>
+                </div>
+
+
+                <div class="text-right">
+                  <button {{action 'loginSubmit'}} class="btn btn-primary">submit</button>
+                </div>
+          </div>
+      </form>
+  </div>
+</div>

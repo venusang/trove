@@ -1,0 +1,15 @@
+<div class="col-md-12">
+  <h2>Dynamic Charting and Reporting</h2>
+</div>
+<div class="col-md-12 text-center">
+    {{#if selectedLocation}}
+      {{google-maps latitude=selectedLocation.latitude longitude=selectedLocation.longitude markers=markers}}
+    {{/if}}
+    {{view Ember.Select content=locations value=selectedLocation optionLabelPath="content.name"}}
+</div>
+<div class="col-md-4">
+  {{highchart-bar data=barChartData.data title=barChartData.title xAxisCategories = barChartData.xAxisCategories}}
+</div>
+<div class="col-md-4">
+  {{highchart-donut data = pieData}}
+</div>

@@ -1,0 +1,21 @@
+{
+  "name" : "Customer Account",
+  "dataFields" : [ {
+    "name" : "Account Type",
+    "dataType" : "String"
+  }, {
+    "name" : "Rate Class",
+    "dataType" : "String"
+  }, {
+    "name" : "Account Id",
+    "dataType" : "String"
+  } ],
+  "_links" : {
+    "self" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/1"
+    },
+    "dataFieldType" : {
+      "href" : "https://54.227.253.223:8443/sunstoneApi/dataFieldType/1/dataFieldType"
+    }
+  }
+}

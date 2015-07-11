@@ -1,0 +1,41 @@
+<div class="data-research-wrapper">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <div class="col-md-3">
+          {{render "data-fields"}}
+      </div><!-- col-md-3 -->
+
+      <div class="col-md-9">
+        <form role="form" id="FilterForm">
+        {{render "data-settings"}}
+        
+        <!--h3>Refine your Results:</h3-->
+
+        <div class="row">
+          <div class="col-md-12">
+             <!-- render 'date-time' -->
+          </div><!--col-md-5 -->
+        </div><!-- row -->
+       
+
+        <div class="row">
+          <!-- render 'recur-pattern' -->
+          <!-- render 'grouped-by' -->
+        </div><!-- row -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-info" {{action 'validator'}}>submit</button>
+          </div>
+        </div><!-- row -->
+        {{render 'data-results'}}
+        </form>
+      </div><!--col-md-9 -->
+
+
+
+
+    </div><!-- col-md-10 -->
+  </div><!-- row -->
+</div><!-- data-research-wrapper -->
